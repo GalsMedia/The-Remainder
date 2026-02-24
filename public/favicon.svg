@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <rect width="32" height="32" rx="6" fill="#0a0a0f"/>
+  <!-- Outer ember glow -->
+  <ellipse cx="16" cy="22" rx="8" ry="4" fill="#e8a84922"/>
+  <!-- Flame body -->
+  <path d="M16 4 C16 4, 24 14, 22 20 C21 23, 18 25, 16 26 C14 25, 11 23, 10 20 C8 14, 16 4, 16 4Z" fill="#d4622a" opacity="0.7"/>
+  <path d="M16 8 C16 8, 22 15, 20 20 C19 22, 17.5 24, 16 24.5 C14.5 24, 13 22, 12 20 C10 15, 16 8, 16 8Z" fill="#e8a849"/>
+  <!-- Inner bright core -->
+  <path d="M16 13 C16 13, 19 17, 18.5 20 C18 21.5, 17 22.5, 16 23 C15 22.5, 14 21.5, 13.5 20 C13 17, 16 13, 16 13Z" fill="#f0ece0" opacity="0.8"/>
+</svg>
