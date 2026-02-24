@@ -955,45 +955,48 @@ export default function App() {
           }}>
             Continue.
           </p>
-          <a
-            href="https://www.patreon.com/GalsMedia"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              fontFamily: FONTS.mono,
-              fontSize: 11,
-              letterSpacing: 1,
-              color: COLORS.textDim,
-              textDecoration: "none",
-              padding: "8px 16px",
-              border: `1px solid ${COLORS.border}`,
-              borderRadius: 4,
-              transition: "all 0.3s ease",
-            }}
-            onMouseOver={(e) => { e.target.style.color = COLORS.warm; e.target.style.borderColor = COLORS.warm + '44'; }}
-            onMouseOut={(e) => { e.target.style.color = COLORS.textDim; e.target.style.borderColor = COLORS.border; }}
-          >
-            Support This Project
-          </a>
-          <span style={{ color: COLORS.border, margin: "0 8px", fontSize: 11 }}>·</span>
-          <a
-            href="mailto:gene@theremainder.org"
-            style={{
-              fontFamily: FONTS.mono,
-              fontSize: 11,
-              letterSpacing: 1,
-              color: COLORS.textDim,
-              textDecoration: "none",
-              padding: "8px 16px",
-              border: `1px solid ${COLORS.border}`,
-              borderRadius: 4,
-              transition: "all 0.3s ease",
-            }}
-            onMouseOver={(e) => { e.target.style.color = COLORS.warm; e.target.style.borderColor = COLORS.warm + '44'; }}
-            onMouseOut={(e) => { e.target.style.color = COLORS.textDim; e.target.style.borderColor = COLORS.border; }}
-          >
-            gene@theremainder.org
-          </a>
+          <div style={{ display: "flex", gap: 12, justifyContent: "center", flexWrap: "wrap", marginTop: 4 }}>
+            <a
+              href="https://www.patreon.com/GalsMedia"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                fontFamily: FONTS.mono,
+                fontSize: 11,
+                letterSpacing: 1,
+                color: COLORS.textDim,
+                textDecoration: "none",
+                padding: "8px 16px",
+                border: `1px solid ${COLORS.border}`,
+                borderRadius: 4,
+                transition: "all 0.3s ease",
+                whiteSpace: "nowrap",
+              }}
+              onMouseOver={(e) => { e.target.style.color = COLORS.warm; e.target.style.borderColor = COLORS.warm + '44'; }}
+              onMouseOut={(e) => { e.target.style.color = COLORS.textDim; e.target.style.borderColor = COLORS.border; }}
+            >
+              Support This Project
+            </a>
+            <a
+              href="mailto:gene@theremainder.org"
+              style={{
+                fontFamily: FONTS.mono,
+                fontSize: 11,
+                letterSpacing: 1,
+                color: COLORS.textDim,
+                textDecoration: "none",
+                padding: "8px 16px",
+                border: `1px solid ${COLORS.border}`,
+                borderRadius: 4,
+                transition: "all 0.3s ease",
+                whiteSpace: "nowrap",
+              }}
+              onMouseOver={(e) => { e.target.style.color = COLORS.warm; e.target.style.borderColor = COLORS.warm + '44'; }}
+              onMouseOut={(e) => { e.target.style.color = COLORS.textDim; e.target.style.borderColor = COLORS.border; }}
+            >
+              gene@theremainder.org
+            </a>
+          </div>
         </footer>
       )}
     </div>
